@@ -55,7 +55,7 @@ function caso3() {
     "<p class=" +
     "promedio" +
     ">" +
-    promedio +
+    promedio.toFixed(2) +
     "</p>";
   total = 0;
 }
