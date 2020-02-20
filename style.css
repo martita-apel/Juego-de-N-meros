@@ -1,0 +1,78 @@
+body {
+  background: yellow;
+  color: black;
+}
+
+h1 {
+  font-size: 190px;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+}
+
+.botones {
+  padding-left: 50px;
+}
+.boton {
+  width: 150px;
+  height: 150px;
+  font-size: 100px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+  border: 0;
+  cursor: pointer;
+}
+.boton:hover {
+  background-color: magenta;
+  color: black;
+}
+.flechas {
+  padding-left: 50px;
+  font-size: 40px;
+}
+#flecha {
+  margin-right: 20px;
+  padding: 10px 55px;
+}
+.respuestas {
+  padding: 0px 50px 50px 50px;
+  display: flex;
+}
+.respuesta_1,
+.respuesta_2,
+.respuesta_3,
+.respuesta_4,
+.respuesta_5 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin-right: 22px;
+  border-radius: 10%;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+.num {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.promedio {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.frutas {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
